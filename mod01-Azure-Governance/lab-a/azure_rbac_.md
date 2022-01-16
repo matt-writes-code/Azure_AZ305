@@ -1,10 +1,10 @@
 ---
 lab:
-    title: '10: Managing Azure Role-Based Access Control'
-    module: 'Module 10: Implement and Manage Azure Governance'
+    title: '01: Design a governance solution'
+    module: 'Module 01: Implement and Manage Azure Governance'
 ---
 
-# Lab: Managing Azure Role-Based Access Control
+# Lab 01-a: Managing Azure Role-Based Access Control
 # Student lab manual
 
 ## Lab scenario
