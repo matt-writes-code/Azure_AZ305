@@ -118,7 +118,7 @@ In this task, you will assign the built-in *Require a tag and its value on resou
 
 1. Navigate back to the blade of the resource group hosting the storage account used for the Cloud Shell home drive, which you identified in the previous task.
 
-1. On the resource group blade, click **+ Add**.
+1. On the resource group blade, click **+ Create**.
 
 1. On the **New** blade, search for and select **Storage account**, and click **Create**. 
 
