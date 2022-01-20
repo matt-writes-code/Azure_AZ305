@@ -49,11 +49,11 @@ Estimated Time: 60 minutes
 
 ## Lab Files
 
--  \\\\AZ304\\AllFiles\\Labs\\04\\azuredeploy30304suba.json
+-  \\AllFiles\\Labs\\04\\azuredeploy30304suba.json
 
--  \\\\AZ304\\AllFiles\\Labs\\04\\azuredeploy30304rga.json
+-  \\AllFiles\\Labs\\04\\azuredeploy30304rga.json
 
--  \\\\AZ304\\AllFiles\\Labs\\04\\azuredeploy30304rga.parameters.json
+-  \\AllFiles\\Labs\\04\\azuredeploy30304rga.parameters.json
 
 ## Instructions
 
@@ -80,7 +80,7 @@ The main tasks for this exercise are as follows:
    Register-AzResourceProvider -ProviderNamespace 'Microsoft.EventGrid'
    ```
 
-1. In the toolbar of the Cloud Shell pane, select the **Upload/Download files** icon, in the drop-down menu select **Upload**, and upload the file **\\\\AZ304\\AllFiles\Labs\\04\\azuredeploy30304suba.json** into the Cloud Shell home directory.
+1. In the toolbar of the Cloud Shell pane, select the **Upload/Download files** icon, in the drop-down menu select **Upload**, and upload the file * \\AllFiles\Labs\\04\\azuredeploy30304suba.json** into the Cloud Shell home directory.
 
 1. From the Cloud Shell pane, run the following to create a resource groups (replace the `<Azure region>` placeholder with the name of the Azure region that is available for deployment of Azure VMs in your subscription and which is closest to the location of your lab computer):
 
@@ -91,9 +91,9 @@ The main tasks for this exercise are as follows:
 
       > **Note**: To identify Azure regions where you can provision Azure VMs, refer to [**https://azure.microsoft.com/en-us/regions/offers/**](https://azure.microsoft.com/en-us/regions/offers/)
 
-1. From the Cloud Shell pane, upload the Azure Resource Manager template **\\\\AZ304\\AllFiles\Labs\\04\\azuredeploy30304rga.json**.
+1. From the Cloud Shell pane, upload the Azure Resource Manager template * \\AllFiles\Labs\\04\\azuredeploy30304rga.json**.
 
-1. From the Cloud Shell pane, upload the Azure Resource Manager parameter file **\\\\AZ304\\AllFilesLabs\\04\\azuredeploy30304rga.parameters.json**.
+1. From the Cloud Shell pane, upload the Azure Resource Manager parameter file * \\AllFilesLabs\\04\\azuredeploy30304rga.parameters.json**.
 
 1. From the Cloud Shell pane, run the following to deploy a Azure VM running Windows Server 2019 that you will be using in this lab:
 
