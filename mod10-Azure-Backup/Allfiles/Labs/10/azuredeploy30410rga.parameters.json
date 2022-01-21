@@ -1,0 +1,66 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "adminUsername": {
+      "value": "Student"
+    },
+    "adminPassword": {
+      "value": "Pa55w.rd1234"
+    },
+    "domainName": {
+      "value": "adatum.com"
+    },
+    "vmSize": {
+      "value": "Standard_D2s_v3"
+    },
+    "_artifactsLocation": {
+      "value": "[deployment().properties.templateLink.uri]"
+    },
+    "_artifactsLocationSasToken": {
+      "value": null
+    },
+    "location": {
+      "value": "[resourceGroup().location]"
+    },
+    "virtualMachineName": {
+      "value": "az30410a-vm1"
+    },
+    "virtualNetworkName": {
+      "value": "az30410a-vnet"
+    },
+    "virtualNetworkAddressRange": {
+      "value": "10.10.0.0/16"
+    },
+    "loadBalancerFrontEndIPName": {
+      "value": "az30410a-lbfe"
+    },
+    "backendAddressPoolName": {
+      "value": "az30410a-lbbe"
+    },
+    "inboundNatRulesName": {
+      "value": "az30410a-rdprule"
+    },
+    "networkInterfaceName": {
+      "value": "az30410a-nic"
+    },
+    "privateIPAddress": {
+      "value": "10.10.0.4"
+    },
+    "subnetName": {
+      "value": "adSubnet"
+    },
+    "subnetRange": {
+      "value": "10.10.0.0/24"
+    },
+    "publicIPAddressName": {
+      "value": "az30410a-pip"
+    },
+    "availabilitySetName": {
+      "value": "az30410a-avset"
+    },
+    "loadBalancerName": {
+      "value": "az30410a-lb"
+    }
+  }
+}
